@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 // iconfont svg
+// function模式创建react组件
 const SvgIcon = props => {
   return (
     <svg className={`svg-icon ${props.className}`} aria-hidden='true' style={props.style}>

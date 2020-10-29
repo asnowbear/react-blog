@@ -11,6 +11,7 @@ import navList from '../right/navList'
 import SvgIcon from '@/components/SvgIcon'
 
 const HeaderLeft = props => {
+  // 相当于class里面的state功能，并给一个初始值
   const [keyword, setKeyword] = useState('')
   const history = useHistory()
 
