@@ -12,7 +12,9 @@ const {
 } = require('../models')
 
 const fs = require('fs')
-const { uploadPath, outputPath, findOrCreateFilePath, decodeFile, generateFile } = require('../utils/file')
+const { 
+  uploadPath, outputPath, findOrCreateFilePath, decodeFile, generateFile 
+} = require('../utils/file')
 const archiver = require('archiver') // 打包 zip
 const send = require('koa-send') // 文件下载
 

@@ -2,7 +2,7 @@ const devMode = process.env.NODE_ENV === 'development'
 
 const config = {
   PORT: 6060, // 启动端口
-  ADMIN_GITHUB_LOGIN_NAME: 'gershonv', // 博主的 github 登录的账户名 user
+  ADMIN_GITHUB_LOGIN_NAME: 'asnowbear', // 博主的 github 登录的账户名 user
   GITHUB: {
     client_id: 'c6a96a84105bb0be1fe5',
     client_secret: '463f3994ab5687544b2cddbb6cf44920bf179ad9',
@@ -13,7 +13,7 @@ const config = {
   EMAIL_NOTICE: {
     // 邮件通知服务
     // detail: https://nodemailer.com/
-    enable: true, // 开关
+    enable: false, // 开关
     transporterConfig: {
       host: 'smtp.163.com',
       port: 465,
